@@ -34,7 +34,7 @@ body {
 	transition: 0.5s;
 	margin: 8px;
 	padding: 0 5px;
-    color: #fff;
+    color: #000;
     border: none;
 }
 
@@ -53,11 +53,11 @@ body {
 	font-size: 0.8rem;
 }
 
-.inputBox input:invalid ~ label {
+.inputBox input:invalid:focus ~ label {
 	color: red;
 }
 
-.inputBox input:invalid {
+.inputBox input:invalid:focus {
 	border-left: 5px solid red;
 	left: -5px;
 }
