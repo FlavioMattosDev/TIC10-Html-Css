@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Formulário</title>
+</head>
+
+<body>
+  <h1 id="titulo">Cadastro de Desenvolvedores</h1>
+  <form action="https://658c7f4d859b3491d3f628f7.mockapi.io/users" method="post">
+    <div class="campos">
+      <label for="name">Nome:</label>
+      <input type="text" name="name" id="name" required><br />
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required><br />
+
+      <label for="birthday">Data de Nascimento:</label>
+      <input type="date" name="birthday" id="birthday" required><br />
+
+      <label for="address">Endereço:</label>
+      <input type="text" name="address" id="address" required><br />
+
+      <label for="nationality">Nacionalidade:</label>
+      <input type="text" name="nationality" id="nationality" required><br />
+
+      <label for="telephone">Telefone:</label>
+      <input type="tel" name="telephone" id="telephone" required><br />
+    </div>
+
+    <fieldset>
+      <legend>Ocupação:</legend>
+      <input type="radio" name="occupation" id="student" value="student">
+      <label for="student">Estudante</label>
+
+      <input type="radio" name="occupation" id="clt" value="clt">
+      <label for="clt">CLT</label>
+
+      <input type="radio" name="occupation" id="mei" value="mei">
+      <label for="mei">MEI</label>
+    </fieldset><br />
+
+    <div class="botao">
+      <button class="btn" type="submit">Cadastrar</button>
+    </div>
+  </form>
+</body>
+
+</html>
