@@ -17,8 +17,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.bg-color-primary{
-  background-color: #F8FDFF;
+.bg-color-primary {
+  background-color: #f8fdff;
 }
 
 .container {
@@ -29,7 +29,7 @@ body {
 .nav-content {
   padding: 40px 0;
   display: flex;
-  background-color: #F8FDFF;
+  background-color: #f8fdff;
   align-items: center;
   justify-content: space-between;
 }
@@ -86,7 +86,6 @@ body p {
   align-items: center;
   margin-bottom: 15px;
   gap: 16px;
-
 }
 
 .header-btns {
@@ -115,8 +114,8 @@ body p {
   border-radius: 15px;
 }
 
-.bg-color-secundary{
-  background-color: #F6F6FF;
+.bg-color-secundary {
+  background-color: #f6f6ff;
 }
 
 .section01 h2 {
@@ -155,7 +154,7 @@ body p {
 .section01-form {
   width: 490px;
   height: 620px;
-  background-color: #9866EB;
+  background-color: #9866eb;
   border-radius: 16px;
   display: flex;
   flex-direction: column;
@@ -175,13 +174,13 @@ body p {
   margin-bottom: 36px;
 }
 
-.section01-form-inputs{
+.section01-form-inputs {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 
-.section01-form input{
+.section01-form input {
   width: 370px;
   padding: 15px 20px;
   font-size: 20px;
@@ -192,7 +191,7 @@ body p {
 }
 
 .section01-form input::placeholder {
-  color: rgba(000, 000, 000, 0.2)
+  color: rgba(000, 000, 000, 0.2);
 }
 
 .section01-form textarea {
@@ -208,7 +207,7 @@ body p {
 }
 
 .section01-form textarea::placeholder {
-  color: rgba(000, 000, 000, 0.2)
+  color: rgba(000, 000, 000, 0.2);
 }
 
 .section01-form button {
@@ -222,4 +221,45 @@ body p {
   color: #0f147f;
   border: none;
   border-radius: 10px;
+}
+
+.bg-color-tertiary {
+  background-color: #2e91e2;
+}
+
+.section02 {
+  height: 328px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section02 p {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 46px;
+}
+
+.section02 a {
+  width: 380px;
+  padding: 40px 0;
+  background-color: #fff;
+  color: #0f147f;
+  text-align: center;
+  border-radius: 70px;
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  z-index: 10;
+}
+
+.section02 img {
+  position: absolute;
+  right: 25%;
+}
+
+.section02-bg-img {
+  background-image: url(./imgs/Ilustracao-geometrica.png);
+  background-repeat: no-repeat;
 }
